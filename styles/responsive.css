@@ -1,0 +1,80 @@
+@media screen and (max-width: 690px) {
+  .impact-steps-cards {
+    flex-direction: column;
+  }
+  .impact-card {
+    max-width: 100% !important;
+    padding: 24px;
+  }
+  .real-estate-wrapper {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .financed-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .financed-numbers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pricing-sec {
+    flex-direction: column;
+    min-height: 600px;
+    gap: 20px;
+  }
+  .pricing-sec .right {
+    max-width: 430px;
+  }
+  .pricing-sec .left {
+    margin: 1rem;
+    width: 100%;
+    padding-left: 30px;
+  }
+  .faq-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-container {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+  }
+  .about-right {
+    flex-wrap: wrap;
+  }
+  .contact-text p {
+    max-width: 400px;
+  }
+  .how-its-work-cards {
+    margin-left: 64px;
+    gap: 32px;
+  }
+  .how-its-work-card {
+    flex-direction: column-reverse;
+    align-items: baseline;
+    gap: 32px;
+    margin-right: 46px;
+  }
+  .how-its-work-card:first-child {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .how-its-work-card:last-child {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+  .how-its-work-card .arrow {
+    display: none;
+  }
+}
+@media screen and (max-width: 460px) {
+  .financed-numbers {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+}
