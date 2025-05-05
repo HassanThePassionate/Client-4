@@ -1,4 +1,23 @@
+@media (max-width: 990px) {
+  .invest-cards {
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+  .title-btn {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 690px) {
+  .invest-card {
+    min-width: 100%;
+  }
+  .ready-to-invest,
+  .real-estate,
+  .all-center,
+  .contact {
+    padding: 0 24px;
+  }
+
   .impact-steps-cards {
     flex-direction: column;
   }
@@ -24,15 +43,23 @@
   }
   .pricing-sec .right {
     max-width: 430px;
+    margin: 0 20px;
   }
   .pricing-sec .left {
     margin: 1rem;
     width: 100%;
     padding-left: 30px;
   }
-  .faq-container {
+  .contact-container {
     flex-direction: column;
-    gap: 20px;
+    align-items: start;
+  }
+  .contact-btn {
+    margin-left: 12px;
+    margin-bottom: 16px;
+  }
+  .about {
+    padding: 0 24px;
   }
   .about-container {
     max-width: 100%;
