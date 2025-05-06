@@ -231,6 +231,6 @@
 }
 @media screen and (max-width: 500px) {
   .contact-detail {
-    bottom: -150px;
+    display: none;
   }
 }
