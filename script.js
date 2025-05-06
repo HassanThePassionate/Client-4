@@ -1,5 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   const faqs = document.querySelectorAll(".faq");
+  const menuToggle = document.getElementById("menu-toggle");
+  const navbar = document.querySelector(".nav");
+
+  menuToggle.addEventListener("click", () => {
+    navbar.classList.toggle("show");
+  });
 
   faqs.forEach((faq) => {
     faq.querySelector(".faq-question").addEventListener("click", () => {

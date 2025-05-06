@@ -88,3 +88,14 @@
 .left {
   margin-left: 36px;
 }
+@media screen and (max-width: 600px) {
+  .evaluate-cards-1 {
+    flex-direction: column;
+  }
+  .evaluate {
+    padding: 0 24px;
+  }
+  .evaluate-right {
+    display: none;
+  }
+}

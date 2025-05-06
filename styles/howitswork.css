@@ -22,6 +22,19 @@
   display: flex;
   gap: 100px;
 }
+@media screen and (max-width: 768px) {
+  .img-sec {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .overlay-img {
+    display: none;
+  }
+  .how-its-work-content {
+    max-width: 300px;
+    padding: 0 24px;
+  }
+}
 .img-sec-overlay {
   position: relative;
 }
@@ -107,4 +120,31 @@
   color: #696969;
   width: 195px;
   margin-bottom: 16px;
+}
+@media screen and (max-width: 690px) {
+  .how-its-work-cards {
+    margin-left: 64px;
+    gap: 32px;
+  }
+  .how-its-work-card {
+    flex-direction: column-reverse;
+    align-items: baseline;
+    gap: 32px;
+    margin-right: 46px;
+  }
+  .how-its-work-card:first-child {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .how-its-work-card:last-child {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+  .how-its-work-card .arrow {
+    display: none;
+  }
 }

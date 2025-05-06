@@ -72,3 +72,19 @@
   font-size: 14px;
   font-weight: 500;
 }
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    padding: 0 24px;
+  }
+  .evaluate-wrapper {
+    padding: 0 24px;
+    flex-direction: column-reverse;
+    align-items: start;
+    gap: 20px;
+  }
+  .content-btns {
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+  }
+}

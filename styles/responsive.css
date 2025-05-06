@@ -8,6 +8,28 @@
   }
 }
 @media screen and (max-width: 690px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .nav.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
   .invest-card {
     min-width: 100%;
   }
@@ -15,7 +37,9 @@
   .real-estate,
   .all-center,
   .contact,
-  .hero-section {
+  .hero-section,
+  .impact-steps-cards,
+  .projects-cards {
     padding: 0 24px;
   }
 

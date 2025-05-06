@@ -7,13 +7,15 @@
   border-radius: 20px;
   position: absolute;
   bottom: 0;
-  height: 80px;
+  min-height: 80px;
   width: 100%;
   max-width: 750px;
   display: flex;
   align-items: center;
-  padding: 0 28px;
+  padding: 12px 28px;
   justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 .detail-card {
   display: flex;
@@ -168,7 +170,7 @@
 }
 
 .faq {
-  width: 378px;
+  max-width: 378px;
   height: auto;
   border-radius: 15px;
   border-width: 0.5px;
@@ -220,4 +222,15 @@
 .faq.active .faq-question span {
   transform: rotate(45deg);
   transition: transform 0.3s ease;
+}
+@media screen and (max-width: 768px) {
+  .faq-container {
+    margin: 0 24px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-detail {
+    bottom: -150px;
+  }
 }
