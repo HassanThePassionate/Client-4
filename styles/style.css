@@ -511,16 +511,17 @@
 }
 .left {
   margin: 3rem 3.5rem;
+  margin-left: 36px;
 }
 
 .left h3 {
   font-weight: 700;
-  font-size: 1.6rem;
   line-height: 112%;
   letter-spacing: -1.1%;
   color: var(--text-color);
-  width: 200px;
-  margin-bottom: 12px;
+  font-size: 36px;
+  width: 300px;
+  margin-bottom: 20px;
 }
 .left p {
   font-weight: 400;
@@ -537,7 +538,7 @@
   height: 220px;
   border-radius: 10px;
   background-color: var(--bg-secondary);
-  margin-right: 20px;
+  margin-right: 36px;
   padding-top: 28px;
 }
 
