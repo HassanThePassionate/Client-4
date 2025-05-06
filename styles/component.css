@@ -39,7 +39,7 @@
 }
 
 .highlight {
-  color: var(--text-brand-color);
+  color: #23614e;
 }
 .text-center {
   text-align: center;
@@ -87,13 +87,17 @@
   padding: 16px;
   border-radius: 20px;
   max-width: 200px;
-  height: 250px;
+  height: 240px;
   transition: all 0.3s ease-in-out;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+.impact-card-1 {
+  max-width: 230px;
+  height: 240px;
 }
 .impact-card:hover {
   transform: translateY(-10px);
@@ -118,4 +122,11 @@
   border-radius: 8px;
   position: relative;
   background-color: transparent;
+}
+.small-box-card {
+  width: 142px;
+  height: 156px;
+  border-radius: 15px;
+  background: var(--card-color);
+  box-shadow: 0px 4px 4px 0px #0000001a;
 }

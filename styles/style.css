@@ -354,6 +354,9 @@
   flex-wrap: wrap;
   gap: 24px;
 }
+.impact-steps-cards-1 {
+  gap: 32px;
+}
 .top-text-1 {
   position: absolute;
   bottom: 60px;

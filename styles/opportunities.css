@@ -1,0 +1,8 @@
+.projects-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 850px;
+  margin-right: 80px;
+  margin-top: 36px;
+}
