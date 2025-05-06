@@ -1,0 +1,223 @@
+.hero-section {
+  position: relative;
+}
+.contact-detail {
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  max-width: 750px;
+  display: flex;
+  align-items: center;
+  padding: 0 28px;
+  justify-content: space-between;
+}
+.detail-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.icon-card {
+  background: #f2f9f6;
+  border-radius: 8px;
+  height: 46px;
+  width: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+.icon-card i {
+  font-size: 24px;
+}
+
+.card-content a {
+  font-weight: 500;
+  font-size: 14px;
+}
+.card-content a:hover {
+  text-decoration: underline;
+}
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+.slideimage-text h4 {
+  font-size: 14px !important;
+}
+.slideimage-text p,
+.slide-text p {
+  line-height: normal !important;
+}
+.num {
+  height: 52px;
+  width: 52px;
+  border: 1px solid #d0d0d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.form {
+  height: 100%;
+  padding: 28px;
+  border-radius: 16px;
+  background-color: #f2f9f699;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.input label {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.input input {
+  height: 52px;
+  width: 100%;
+  padding: 0 16px;
+  border-radius: 12px;
+  border: 1px solid #d0d0d0;
+}
+.submit-btn {
+  height: 52px;
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #23614e;
+  color: #fff;
+  transition: 0.3s ease;
+}
+.submit-btn:hover {
+  background-color: #23614ec9;
+}
+.two-inputs {
+  display: flex;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.message-area {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.message-area textarea {
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #d0d0d0;
+  height: 120px;
+}
+
+/* FAQ SECTION  */
+
+.FAQ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-container {
+  max-width: 860px;
+  min-height: 330px;
+  border-radius: 15px;
+  background: var(--card-color);
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  gap: 50px;
+}
+.faq-container .badge {
+  margin-top: 32px;
+  margin-left: 22px;
+  padding: 8px 24px;
+}
+.faq-left-content {
+  margin-top: 12px;
+  margin-left: 27px;
+}
+.faq-left-content h1 {
+  font-size: 36px;
+  width: 300px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -1.1%;
+  color: var(--text-color);
+  text-align: left;
+  margin-bottom: 12px;
+}
+.faq-left-content p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 130%;
+  letter-spacing: -1.1%;
+  color: var(--text-color-light);
+  width: 325px;
+  margin-top: 10px;
+  margin-bottom: 28px;
+}
+
+.faq {
+  width: 378px;
+  height: auto;
+  border-radius: 15px;
+  border-width: 0.5px;
+  background: #ffffff;
+  border: 0.5px solid #d0d0d0;
+  padding: 16px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.faq-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 40px;
+}
+
+.faq p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 110.00000000000001%;
+  letter-spacing: -1.1%;
+  color: var(--text-color);
+}
+.faq span {
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--brand-color);
+}
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding-left: 4px;
+}
+
+.faq.active .faq-answer {
+  max-height: 200px; /* Adjust based on content */
+  margin-top: 10px;
+}
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq.active .faq-question span {
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
