@@ -544,7 +544,6 @@
 }
 
 .right {
-  width: 600px;
   height: 220px;
   border-radius: 10px;
   background-color: var(--bg-secondary);

@@ -42,7 +42,12 @@
   .projects-cards {
     padding: 0 24px;
   }
-
+  .slide-image {
+    margin-top: 8px;
+  }
+  .slider {
+    max-width: 350px;
+  }
   .impact-steps-cards {
     flex-direction: column;
   }
