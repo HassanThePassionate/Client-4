@@ -19,6 +19,9 @@ a {
   color: inherit;
   font-weight: 400;
 }
+a:hover {
+  text-decoration: underline;
+}
 h1,
 h2 {
   font-size: 60px;

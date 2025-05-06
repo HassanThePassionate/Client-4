@@ -22,13 +22,17 @@
 }
 .sm-btn {
   padding: 0 12px;
-  background: var(--brand-color);
+  background: #5ac8a5;
   height: 30px;
   font-size: 12px;
   border-radius: 4px;
+  color: black;
+}
+.sm-btn:hover {
+  background: #2e8f72 !important;
 }
 .button:hover {
-  background-color: var(--text-brand-color);
+  background-color: rgba(0, 0, 0, 0.671);
 }
 .max-w-max {
   max-width: max-content;
